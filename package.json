@@ -1,19 +1,18 @@
 {
-  "name": "simple-rpi-local-server-led-control",
+  "name": "widgets",
   "version": "1.0.0",
-  "description": "SImple web server that runs html page which can control led connected to rpi",
+  "description": "widgets for the smart mi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "hi",
+    "start": "nodemon weatherAPI.js"
   },
-  "keywords": [
-    "rpi"
-  ],
-  "author": "satya sankar sahoo (www.myelectronicslab.com)",
+  "author": "Peter G",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.3",
-    "rpi-gpio": "^0.8.1"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0"
   }
 }
